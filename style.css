@@ -1,4 +1,8 @@
 /* Universal Styling */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     max-width: 1440px;
