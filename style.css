@@ -855,8 +855,10 @@ p {
     .article .content .content-container p {
         font-size: 14px;
     }
-    .btn-container button {
-        display: none !important;
+    .article .content .btn-container a {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
     }
 }
 
