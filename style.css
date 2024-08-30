@@ -855,7 +855,7 @@ p {
     .article .content .content-container p {
         font-size: 14px;
     }
-    .article .content .btn-container a {
+    .article .content .btn-container button {
         margin-top: 24px;
         display: flex;
         justify-content: center;
