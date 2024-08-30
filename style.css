@@ -161,6 +161,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 #header .subscribe {
@@ -170,6 +174,7 @@ p {
     align-items: center;
     gap: 10px;
     align-self: stretch;
+    background-color: #141414;
 }
 
 #header .subscribe p {
@@ -184,7 +189,6 @@ p {
         gap: 30px;
     }
 }
-
 .navbar {
     border-bottom: 1px solid #262626;
     border-top: 1px solid #262626;
@@ -233,8 +237,9 @@ p {
         text-align: center;
     }
     .navbar button {
-        font-size: 34px;
+        font-size: 16px;
         color: white;
+        background-color: transparent;
         border: none;
     }
 }
